@@ -9,8 +9,8 @@ if(isset($_POST['submit'])){
     $mailTo = "jaime.v.rodriguez@outlook.com";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an email from ".$name.".\n\n".$message;
+    
     mail($mailTo, $subject, $txt, $headers);
-
-    header("Location: index.html");
+  
 
 }
