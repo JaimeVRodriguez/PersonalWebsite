@@ -137,7 +137,7 @@
             <h1>Versatility</h1>
             <p>
               I am a capable individual that is receptive to training and
-              constructive criticism. My ability to grasp new concept quickly
+              constructive criticism. My ability to grasp new concepts quickly
               allows me to constantly expand my knowledge and test my abilities.
               My ambitious personality is a great fit for many cultures.
             </p>
@@ -297,6 +297,7 @@
         </div>
         <form
           action="mailto:jaime.v.rodriguez@outlook.com"
+          action="contactform.php"
           method="post"
           data-aos="fade-up"
           data-aos-delay="300"
@@ -309,12 +310,21 @@
             placeholder="Enter your name..."
             required
           />
+
           <label for="email">Email:</label>
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Enter your email..."
+            required
+          />
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter the subject..."
             required
           />
           <label for="message">Message</label>
