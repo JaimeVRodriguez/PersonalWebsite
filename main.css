@@ -264,6 +264,32 @@ li {
   flex: 1;
 }
 
+.about-details p {
+  padding: 1rem;
+}
+
+.bellevuebs {
+  color: rgb(251, 215, 134);
+  cursor: pointer;
+  transition: color 650ms;
+}
+
+.bellevuebs:hover,
+.bellevuebs:focus {
+  color: rgb(198, 255, 221);
+}
+
+.mssa {
+  color: rgb(251, 215, 134);
+  cursor: pointer;
+  transition: color 650ms;
+}
+
+.mssa:hover,
+.mssa:focus {
+  color: rgb(198, 255, 221);
+}
+
 .social-media {
   margin-top: 5rem;
 }
@@ -360,6 +386,7 @@ li {
 }
 
 .portfolio-description .cta {
+  padding-right: 1rem;
   display: inline-block;
   margin-top: 2.5rem;
   font-size: 1.5rem;
