@@ -268,27 +268,17 @@ li {
 	padding: 1rem;
 }
 
-.bellevuebs {
+.courses {
 	color: rgb(251, 215, 134);
 	cursor: pointer;
 	transition: color 650ms;
 }
 
-.bellevuebs:hover,
-.bellevuebs:focus {
+.courses:hover,
+.courses:focus {
 	color: rgb(198, 255, 221);
 }
 
-.mssa {
-	color: rgb(251, 215, 134);
-	cursor: pointer;
-	transition: color 650ms;
-}
-
-.mssa:hover,
-.mssa:focus {
-	color: rgb(198, 255, 221);
-}
 
 .social-media {
 	margin-top: 5rem;
@@ -414,6 +404,7 @@ li {
 }
 
 .timeline .job-title {
+	color: rgb(251, 215, 134);
 	font-size: 2rem;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -491,42 +482,44 @@ li {
 /*End timeline*/
 
 /*Start contact*/
-.contact {
-	background-color: #3e4a61;
+.contact .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-form {
-	width: 70%;
-	margin: 0 auto;
+
+.contact-img {
+	flex: 1;
+	margin-right: 5rem;
 }
 
-form label {
-	font-size: 1.5rem;
+.contact-details {
+	flex: 1;
 }
 
-input,
-select,
-textarea {
-	width: 100%;
+.contact-details p {
 	padding: 1rem;
-	margin-bottom: 5px;
-	border: none;
-	outline-color: rgb(198, 255, 221);
 }
 
-input[type="submit"] {
-	width: initial;
-	background-color: rgb(251, 215, 134);
-	color: #3e4a61;
-	padding: 1rem 2rem;
-	border-radius: 0.8rem;
-	cursor: pointer;
-	transition: background-color 650ms;
+.contact-media {
+	margin-top: 5rem;
 }
 
-input[type="submit"]:hover {
-	color: #1a2639;
-	background-color: rgb(198, 255, 221);
+.contact-media i {
+	font-size: 5rem;
+	padding: 1rem;
+	transition: color 650ms;
+}
+
+.fa-envelope:hover,
+.fa-envelope:focus {
+	color: rgb(251, 215, 134);
+}
+
+.fa-phone:hover,
+.fa-phone:focus {
+	color: rgb(251, 215, 134);
 }
 /*End contact*/
 
