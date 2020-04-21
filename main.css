@@ -488,7 +488,6 @@ li {
 	justify-content: center;
 }
 
-
 .contact-img {
 	flex: 1;
 	margin-right: 5rem;
@@ -639,6 +638,14 @@ li {
 	.timeline .date::after {
 		left: -5.9rem;
 	}
+
+	.contact-details .nav-list {
+		flex-direction: initial;
+	}
+
+	.contact-details li {
+		margin: o 2rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -694,8 +701,12 @@ li {
 		margin-right: auto;
 	}
 
-	form {
-		width: 100%;
+	.contact .container {
+		flex-direction: column;
+	}
+
+	.contact-img {
+		margin: 0 0 7rem 0;
 	}
 
 	.up {
