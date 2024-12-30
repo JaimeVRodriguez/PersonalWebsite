@@ -360,8 +360,8 @@ li {
 .portfolio-description h6 {
 	font-size: 1.5rem;
 	text-transform: uppercase;
-	font-weight: 300;
-	opacity: 0.3;
+	font-weight: 350;
+	color: #3d3d3f;
 }
 
 .portfolio-description .cta {
