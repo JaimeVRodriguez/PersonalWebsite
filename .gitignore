@@ -1,0 +1,40 @@
+# Next.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.next/
+
+# Optional Next.js output directories
+out/
+build/
+
+# Environment variables
+.env*.local
+
+# Next.js development
+.next/cache
+
+# MacOS
+.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
