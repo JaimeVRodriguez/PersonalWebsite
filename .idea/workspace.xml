@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8ec1c8-7714-4304-aec0-b883f70076f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/resume/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/resume/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/work/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/work/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MobileNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MobileNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Stats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Stats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backtrack_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/backtrack_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dai_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/dai_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ghostmachine_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/ghostmachine_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/palantir_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/palantir_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rollout_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/rollout_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/swf_mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/work/swf_mock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +144,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/work" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
