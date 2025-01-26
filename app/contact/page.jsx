@@ -36,6 +36,7 @@ const info = [
     },
 ];
 
+// TODO: have form send email with input data
 const Contact = () => {
     const handlePhoneClick = (link) => {
         window.location.href = link;

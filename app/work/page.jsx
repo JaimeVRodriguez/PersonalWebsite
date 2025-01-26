@@ -107,6 +107,7 @@ const projects = [
     },
 ];
 
+// TODO: adjust button for first or last
 const Work = () => {
     const [project, setProject] = useState(projects[0]);
 
