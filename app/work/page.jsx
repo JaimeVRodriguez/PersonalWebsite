@@ -100,14 +100,13 @@ const projects = [
             "Operations selection data for the Special Forces and Psychological Operations Career fields. After " +
             "conducting exploratory data analysis, further work was done to create a selection result predictive model " +
             "based on the available attributes of prospective candidates..",
-        stack: [{name: "Python"}, {name: "Pandas"}, {name: "NumPy"}, {name: "SciPy"}, {name: "Matplotlib"}, {name: "Seaborn"}],
+        stack: [{name: "Python"}, {name: "Pandas"}, {name: "NumPy"}, {name: "SciPy"}, {name: "Matplotlib"}],
         image: "/assets/work/dai_mock.png",
         live: {isLive: false, url: ""},
         github: {isLive: true, url: "https://github.com/JaimeVRodriguez/sof_selection_analysis"}
     },
 ];
 
-// TODO: adjust button for first or last
 const Work = () => {
     const [project, setProject] = useState(projects[0]);
 
@@ -223,6 +222,7 @@ const Work = () => {
                             })}
                             {/* slider buttons */}
                             <WorkSliderBtns
+                                projectIndex={project.num}
                                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
                                 btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
                             />

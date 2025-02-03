@@ -3,18 +3,21 @@
 import { useSwiper } from "swiper/react";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 
-// TODO: app prop for first or last
-const WorkSliderBtns = ({ containerStyles, btnStyles, iconsStyles }) => {
+const WorkSliderBtns = ({ containerStyles, btnStyles, iconsStyles, projectIndex }) => {
   const swiper = useSwiper();
   return (
-    <div className={containerStyles}>
-      <button className={btnStyles} onClick={() => swiper.slidePrev()}>
-        <PiCaretLeftBold className={iconsStyles} />
-      </button>
-      <button className={btnStyles} onClick={() => swiper.slideNext()}>
-        <PiCaretRightBold className={iconsStyles} />
-      </button>
-    </div>
+      <div className={containerStyles}>
+          {projectIndex !== "01" && (
+              <button className={btnStyles} onClick={() => swiper.slidePrev()}>
+                  <PiCaretLeftBold className={iconsStyles} />
+              </button>
+          )}
+          {projectIndex !== "06" && (
+              <button className={btnStyles} onClick={() => swiper.slideNext()}>
+                  <PiCaretRightBold className={iconsStyles} />
+              </button>
+          )}
+      </div>
   );
 };
 
