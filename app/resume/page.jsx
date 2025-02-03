@@ -31,10 +31,9 @@ const about = {
     info: [
         {fieldName: "Name", fieldValue: "Jaime V. Rodriguez"},
         {fieldName: "Phone", fieldValue: "(206) 399-9083"},
-        {fieldName: "Experience", fieldValue: "3 Years"},
+        {fieldName: "Experience", fieldValue: "4 Years"},
         {fieldName: "Clearance", fieldValue: "Top Secret - SCI"},
         {fieldName: "Email", fieldValue: "jaime.v.rodriguez@icloud.com"},
-        {fieldName: "Languages", fieldValue: "English, Spanish, Russian"},
     ],
 };
 
