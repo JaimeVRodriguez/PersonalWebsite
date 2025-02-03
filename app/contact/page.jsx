@@ -105,6 +105,7 @@ const Contact = () => {
                             className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
                             onSubmit={sendEmail}
                         >
+                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                             <h3 className="text-4xl text-accent">Let's work together</h3>
                             <p className="text-white/60">
                                 I enjoy expanding my network and creating new relationships. If
