@@ -15,6 +15,22 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "JVR.",
   description: "Jaime V. Rodriguez",
+
+  openGraph: {
+    title: "JVR.",
+    description: "Jaime V. Rodriguez",
+    url: "https://www.jaime-v-rodriguez.com",
+    siteName: "JVR.",
+    images: [
+      {
+      url: "https://www.jaime-v-rodriguez.com/og-preview.png",
+      width: 1200,
+      height: 630,
+      alt: "JVR."
+      }
+    ],
+    type: "website",
+  }
 };
 
 export default function RootLayout({ children }) {
