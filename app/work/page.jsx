@@ -29,7 +29,7 @@ const projects = [
             "Special Operations (Psychological Operations) Soldiers in generating digital product prototypes for " +
             "operational use. It provides a suite of tools for prompt generation, image and voice creation, and text " +
             "translation, enabling Soldiers to quickly develop and iterate on multimedia content for their missions.",
-        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "Postgresql"}],
+        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "PostgreSQL"}],
         image: "/assets/work/ghostmachine_mock.png",
         live: {isLive: false, url: ""},
         github: {isLive: false, url: ""}
@@ -72,7 +72,7 @@ const projects = [
             "streamed songs from the 70s, 80s, and 90s, integrating Google Gemini to provide real-time song lyrics. " +
             "This project was part of a Major League Hacking sanctioned event, where we received the award for Best " +
             "Presentation and achieved 2nd place overall.",
-        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "Postgresql"}],
+        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "PostgreSQL"}],
         image: "/assets/work/backtrack_mock.png",
         live: {isLive: true, url: "https://devpost.com/software/backtrack-e56qly"},
         github: {isLive: true, url: "https://github.com/JaimeVRodriguez/Riverbat_Hackathon"}
@@ -86,7 +86,7 @@ const projects = [
             "a centralized platform for tracking equipment, its location, and any deficiencies identified. By enabling " +
             "users to view and update equipment status in real time, Roll-Out significantly reduces repetitive tasks " +
             "associated with previous methods, streamlining the deployment workflow and improving overall efficiency.",
-        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "Postgresql"}],
+        stack: [{name: "Typescript"}, {name: "React"}, {name: "Java"}, {name: "Spring"}, {name: "PostgreSQL"}],
         image: "/assets/work/rollout_mock.png",
         live: {isLive: false, url: ""},
         github: {isLive: false, url: ""}

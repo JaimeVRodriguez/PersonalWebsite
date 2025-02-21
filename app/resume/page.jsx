@@ -26,7 +26,7 @@ const about = {
     title: "About Me",
     description:
         "I have served in the U.S. Army for the past 15 years. The last 3 of which have been in Special Operations as " +
-        "a Data Analyst and Software Engineer. I have served on small collaborative teams in ambiguous missions across " +
+        "a Data Analyst and Software Developer. I have served on small collaborative teams in ambiguous missions across " +
         "the world to include the U.S. Embassy Kiev, Ukraine. ",
     info: [
         {fieldName: "Name", fieldValue: "Jaime V. Rodriguez"},
@@ -41,17 +41,17 @@ const experience = {
     icon: "/assets/resume/badge.svg",
     title: "My Experience",
     description: "Dedicated and versatile professional with extensive experience in technology, data analysis, and " +
-        "leadership roles within the US Army's Special Operations. Currently serving as an Associate Software Engineer, " +
+        "leadership roles within the US Army's Special Operations. Currently serving as an Associate Software Developer, " +
         "leveraging expertise in full-stack development, AI integration, and advanced data solutions.",
     items: [
         {
             company: "US Army Special Operations AI Division",
-            position: "Associate Software Engineer",
+            position: "Associate Software Developer",
             duration: "2024 - Present",
         },
         {
             company: "US Army Software Factory",
-            position: "Junior Software Engineer",
+            position: "Junior Software Developer",
             duration: "2023 - 2024",
         },
         {
