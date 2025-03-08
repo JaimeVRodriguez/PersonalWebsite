@@ -16,8 +16,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import emailjs from 'emailjs-com';
 import { Fragment, useState } from 'react';
-import CircularProgress from '@mui/material/CircularProgress';
-import Snackbar, { SnackbarCloseReason } from '@mui/material/Snackbar';
+import Snackbar from '@mui/material/Snackbar';
 import { Alert } from '@mui/material';
 import GradientCircularProgress from '@/components/GradientCircularProgress';
 
@@ -54,7 +53,7 @@ const Contact = () => {
     const [loading, setLoading] = useState(false);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarMessage, setSnackbarMessage] = useState('');
-    const [snackbarSeverity, setSnackbarSeverity] = useState('success'); // "success" | "error"
+    const [snackbarSeverity, setSnackbarSeverity] = useState('success');
 
 
     const handleChange = (e) => {
@@ -67,8 +66,8 @@ const Contact = () => {
         setLoading(true);
 
         emailjs.send(
-            'service_glmmmyo', // Replace with your EmailJS service ID
-            'template_q269468', // Replace with your EmailJS template ID
+            'service_glmmmyo',
+            'template_q269468',
             {
                 firstname: formData.firstname,
                 lastname: formData.lastname,
