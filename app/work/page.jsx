@@ -157,7 +157,7 @@ const Work = () => {
                             <div className="flex items-center gap-4">
                                 {/* live project button */}
                                 {project.live.isLive && (
-                                    <Link href={project.live.url}>
+                                    <Link href={project.live.url} target="_blank">
                                         <TooltipProvider delayDuration={100}>
                                             <Tooltip>
                                                 <TooltipTrigger
@@ -175,7 +175,7 @@ const Work = () => {
 
                                 {/* github project button */}
                                 {project.github.isLive && (
-                                    <Link href={project.github.url}>
+                                    <Link href={project.github.url} target="_blank">
                                         <TooltipProvider delayDuration={100}>
                                             <Tooltip>
                                                 <TooltipTrigger
