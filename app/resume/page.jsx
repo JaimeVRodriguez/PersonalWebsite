@@ -25,9 +25,9 @@ import {ScrollArea} from "@/components/ui/scroll-area";
 const about = {
     title: "About Me",
     description:
-        "I have served in the U.S. Army for the past 15 years. The last 3 of which have been in Special Operations as " +
-        "a Data Analyst and Software Developer. I have served on small collaborative teams in ambiguous missions across " +
-        "the world to include the U.S. Embassy Kiev, Ukraine. ",
+        "Retired from the U.S. Army after 16 years of service, 8 of which were in Special Operations as a Data Analyst " +
+        "and Software Developer. Currently working as a Software Engineer at ZenithFlow, supporting our Armed Forces " +
+        "in the Information Operations space.",
     info: [
         {fieldName: "Name", fieldValue: "Jaime V. Rodriguez"},
         {fieldName: "Phone", fieldValue: "(206) 399-9083"},
@@ -45,9 +45,14 @@ const experience = {
         "leveraging expertise in full-stack development, AI integration, and advanced data solutions.",
     items: [
         {
+            company: "ZenithFlow",
+            position: "Software Engineer",
+            duration: "2025 - Present",
+        },
+        {
             company: "US Army Special Operations AI Division",
             position: "Associate Software Developer",
-            duration: "2024 - Present",
+            duration: "2024 - 2025",
         },
         {
             company: "US Army Software Factory",

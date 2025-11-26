@@ -5,13 +5,14 @@ import Image from "next/image";
 
 const Photo = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative flex items-center justify-center">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
           transition: { delay: 2, duration: 0.4, ease: "easeIn" },
         }}
+        className="relative"
       >
         {/* image */}
         <motion.div
@@ -20,7 +21,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden"
         >
           <Image
             src="/assets/profile3.png"
@@ -28,7 +29,7 @@ const Photo = () => {
             quality={100}
             fill
             alt=""
-            className="object-contain"
+            className="object-cover"
           />
         </motion.div>
 

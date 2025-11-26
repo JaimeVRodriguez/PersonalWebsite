@@ -165,7 +165,7 @@ const Contact = () => {
                                     <Input
                                         name="firstname"
                                         type="text"
-                                        placeholder="Firstname"
+                                        placeholder="First Name"
                                         value={formData.firstname}
                                         onChange={handleChange}
                                         required
@@ -173,7 +173,7 @@ const Contact = () => {
                                     <Input
                                         name="lastname"
                                         type="text"
-                                        placeholder="Lastname"
+                                        placeholder="Last Name"
                                         value={formData.lastname}
                                         onChange={handleChange}
                                         required
@@ -181,7 +181,7 @@ const Contact = () => {
                                     <Input
                                         name="email"
                                         type="email"
-                                        placeholder="Email address"
+                                        placeholder="Email Address"
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
@@ -189,7 +189,7 @@ const Contact = () => {
                                     <Input
                                         name="phone"
                                         type="tel"
-                                        placeholder="Phone number"
+                                        placeholder="Phone Number"
                                         value={formData.phone}
                                         onChange={handleChange}
                                         required
