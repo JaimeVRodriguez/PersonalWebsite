@@ -2,6 +2,7 @@
 
 import {FaDatabase, FaGit, FaGitlab, FaJava, FaPython, FaReact,} from "react-icons/fa";
 import {
+    SiAnthropic,
     SiAxios,
     SiDocker,
     SiJunit5,
@@ -130,6 +131,7 @@ const skills = {
         "delivering scalable, efficient, and innovative solutions. Continuously expanding expertise to stay at the " +
         "forefront of industry trends and best practices.",
     skillList: [
+        {icon: <SiAnthropic/>, name: "claude code"},
         {icon: <SiTypescript/>, name: "typescript"},
         {icon: <FaReact/>, name: "react.js"},
         {icon: <SiVitest/>, name: "vitest"},
@@ -138,7 +140,7 @@ const skills = {
         {icon: <SiJunit5/>, name: "junit"},
         {icon: <FaDatabase/>, name: "sql"},
         {icon: <SiPostgresql/>, name: "postgresql"},
-        {icon: <SiDocker/>, name: "docker",},
+        {icon: <SiDocker/>, name: "docker"},
         {icon: <FaGit/>, name: "git"},
         {icon: <FaGitlab/>, name: "gitlab"},
         {icon: <SiAxios/>, name: "axios"},
@@ -158,7 +160,7 @@ const Resume = () => {
             initial={{opacity: 0}}
             animate={{
                 opacity: 1,
-                transition: {delay: 2.4, duration: 0.4, ease: "easeIn"},
+                transition: {delay: 0.8, duration: 0.4, ease: "easeIn"},
             }}
             className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
         >
@@ -183,7 +185,7 @@ const Resume = () => {
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                                     {experience.description}
                                 </p>
-                                <ScrollArea className="h-[400px]">
+                                <ScrollArea className="h-auto xl:h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {experience.items.map((item, index) => {
                                             return (
@@ -215,7 +217,7 @@ const Resume = () => {
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                                     {education.description}
                                 </p>
-                                <ScrollArea className="h-[400px]">
+                                <ScrollArea className="h-auto xl:h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {education.items.map((item, index) => {
                                             return (
@@ -249,7 +251,7 @@ const Resume = () => {
                                         {skills.description}
                                     </p>
                                 </div>
-                                <ScrollArea className="h-[400px]">
+                                <ScrollArea className="h-auto xl:h-[400px]">
                                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                                         {skills.skillList.map((skill, index) => {
                                             return (

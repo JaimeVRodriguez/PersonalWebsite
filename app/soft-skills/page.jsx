@@ -41,7 +41,7 @@ const SoftSkills = () => {
                     initial={{opacity: 0}}
                     animate={{
                         opacity: 1,
-                        transition: {delay: 2.4, duration: 0.4, ease: "easeIn"},
+                        transition: {delay: 0.8, duration: 0.4, ease: "easeIn"},
                     }}
                     className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
                 >
@@ -59,7 +59,7 @@ const SoftSkills = () => {
                                     </div>
                                 </div>
                                 {/* title */}
-                                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                                <h2 className="text-2xl xl:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
                                     {service.title}
                                 </h2>
                                 {/* description */}

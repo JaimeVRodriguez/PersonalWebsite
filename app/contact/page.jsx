@@ -142,7 +142,7 @@ const Contact = () => {
                 initial={{ opacity: 0 }}
                 animate={{
                     opacity: 1,
-                    transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' }
+                    transition: { delay: 0.8, duration: 0.4, ease: 'easeIn' }
                 }}
                 className="py-6"
             >
@@ -150,7 +150,7 @@ const Contact = () => {
                     <div className="flex flex-col xl:flex-row gap-[30px]">
                         <div className="xl:w-[54%] order-2 xl:order-none">
                             <form
-                                className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+                                className="flex flex-col gap-6 p-5 xl:p-10 bg-[#27272c] rounded-xl"
                                 onSubmit={sendEmail}
                             >
                                 {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -237,7 +237,7 @@ const Contact = () => {
                                         </div>
                                         <div className="flex-1">
                                             <p className="text-white/60">{item.title}</p>
-                                            <h3 className="text-xl">{item.description}</h3>
+                                            <h3 className="text-xl break-all">{item.description}</h3>
                                         </div>
                                     </li>
                                 ))}

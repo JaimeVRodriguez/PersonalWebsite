@@ -120,7 +120,7 @@ const Work = () => {
             initial={{opacity: 0}}
             animate={{
                 opacity: 1,
-                transition: {delay: 2.4, duration: 0.4, ease: "easeIn"},
+                transition: {delay: 0.8, duration: 0.4, ease: "easeIn"},
             }}
             className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
         >
@@ -128,19 +128,19 @@ const Work = () => {
                 <div className="flex flex-col xl:flex-row xl:gap-[30px]">
                     <div
                         className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-                        <div className="flex flex-col gap-[30px] h-[50%]">
+                        <div className="flex flex-col gap-[30px]">
                             {/* outline num */}
-                            <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+                            <div className="text-6xl xl:text-8xl leading-none font-extrabold text-transparent text-outline">
                                 {project.num}
                             </div>
                             {/* project title */}
-                            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                            <h2 className="text-2xl xl:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                                 {project.title}
                             </h2>
                             {/* project description */}
                             <p className="text-white/60">{project.description}</p>
                             {/* stack */}
-                            <ul className="flex gap-4">
+                            <ul className="flex flex-wrap gap-4">
                                 {project.stack.map((item, index) => {
                                     return (
                                         <li key={index} className="text-xl text-accent">
