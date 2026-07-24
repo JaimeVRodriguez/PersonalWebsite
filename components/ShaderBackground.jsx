@@ -75,6 +75,9 @@ in vec4 position;
 void main(){gl_Position=position;}`;
       this.vertices = [-1, 1, -1, -1, 1, 1, 1, -1];
       this.gl = canvas.getContext("webgl2");
+      if (!this.gl) {
+        throw new Error("WebGL2 is not supported in this browser");
+      }
       this.gl.viewport(0, 0, canvas.width * scale, canvas.height * scale);
       this.shaderSource = defaultShaderSource;
     }
@@ -226,7 +229,17 @@ void main(){gl_Position=position;}`;
     canvas.width = canvas.offsetWidth * scale;
     canvas.height = canvas.offsetHeight * scale;
 
-    const renderer = new WebGLRenderer(canvas, scale);
+    // WebGL2 is required for the `#version 300 es` shader. If the context
+    // can't be created (no WebGL2 support, GPU blocklisted, hardware
+    // acceleration off, too many live contexts), degrade gracefully to the
+    // black canvas background instead of crashing the page.
+    let renderer;
+    try {
+      renderer = new WebGLRenderer(canvas, scale);
+    } catch (err) {
+      console.warn("ShaderBackground disabled:", err.message);
+      return;
+    }
     rendererRef.current = renderer;
     renderer.setup();
     renderer.init();
